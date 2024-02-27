@@ -1,0 +1,32 @@
+{
+    "name": "안녕하세요! PWA by JS",
+    "short_name": "PWA by JS",
+    "description": "PWA start program",
+    "scope": ".",
+    "start_url": "./",
+    "display": "standalone",
+    "orientation" : "portrait",
+    "background_color" : "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "icons/192icon.jpg",
+        "type": "image/jpg",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/512icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],  
+    "shortcuts": [
+      {
+        "name": "새 창 PWA by JS",
+        "short_name": "새 창",
+        "description": "새 창 PWA by JS",
+        "url": "./",
+        "icons": [{ "src": "icons/192icon.jpg", "sizes": "192x192" }]
+      }
+    ]
+  }
